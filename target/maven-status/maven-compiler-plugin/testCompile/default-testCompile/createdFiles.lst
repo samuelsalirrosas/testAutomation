@@ -1,0 +1,7 @@
+com\bdd\runner\RunnerTest.class
+com\bdd\step\DemoBlazeStep.class
+com\bdd\page\LoginPage.class
+com\bdd\stepDefinition\LoginStepDefinition.class
+com\bdd\step\LoginStep.class
+com\bdd\stepDefinition\DemoBlazeStepDefinition.class
+com\bdd\page\DemoBlazePage.class

@@ -1,0 +1,139 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "line": 54,
+        "name": "Validar el funcionamiento de la creacion de una cuenta por mensaje",
+        "description": "",
+        "id": "autentificación-y-compra-de-productos-en-demo-blaze;validar-el-funcionamiento-de-la-creacion-de-una-cuenta-por-mensaje;;2",
+        "type": "scenario",
+        "keyword": "Esquema del escenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3921612100,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "que el usuario ingresa a la pagina demoblaze en el navegador de \"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 65
+                }
+              ],
+              "location": "DemoBlazeStepDefinition.queElUsuarioIngresaALaPaginaDemoblazeEnElNavegadorDe(String)"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 1491876600,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "el usuario hace click en el boton Singn up",
+            "match": {
+              "location": "DemoBlazeStepDefinition.elUsuarioHaceClickEnElBotonSingnUp()"
+            },
+            "keyword": "Cuando "
+          },
+          {
+            "result": {
+              "duration": 2138999300,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "digita el nombre del cliente \"dasa15\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "dasa15",
+                  "offset": 30
+                }
+              ],
+              "location": "DemoBlazeStepDefinition.digitaElNombreDelCliente(String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 2111795100,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "digita la clave del cliente \"ror15\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ror15",
+                  "offset": 29
+                }
+              ],
+              "location": "DemoBlazeStepDefinition.digitaLaClaveDelCliente(String)"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 3304933500,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "hace click en el boton Singn up",
+            "match": {
+              "location": "DemoBlazeStepDefinition.haceClickEnElBotonSingnUp()"
+            },
+            "keyword": "Y "
+          },
+          {
+            "result": {
+              "duration": 18331160399,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "Valida la creacion de la cuenta mostrando un mensaje \"This user already exist\" Y hace click en Aceptar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "This user already exist",
+                  "offset": 54
+                }
+              ],
+              "location": "DemoBlazeStepDefinition.validaLaCreacionDeLaCuentaMostrandoUnMensajeYHaceClickEnAceptar(String)"
+            },
+            "keyword": "Entonces "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DemoBlaze"
+          },
+          {
+            "name": "@DemoBlaze"
+          },
+          {
+            "name": "@Escenario004_ExistingUserValidation"
+          }
+        ]
+      }
+    ],
+    "name": "Autentificación y compra de productos en Demo Blaze",
+    "description": "",
+    "id": "autentificación-y-compra-de-productos-en-demo-blaze",
+    "keyword": "Característica",
+    "uri": "src/test/resources/feature/DemoBlaze.feature",
+    "tags": [
+      {
+        "name": "@DemoBlaze",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
